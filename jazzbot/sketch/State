@@ -1,0 +1,19 @@
+chords = [Chord(2, m7, 1), Chord(7, _7, 1), Chord(0, M7, 2)]
+chord_index = index into chords for active chord
+
+improv = map from position to already generated improvised notes
+
+# also account for intensity
+rhythmic_motifs = {
+    3: [[.25 .125 .125]],
+    5: [[.125 .25 .125 .125 .25]]
+}
+
+# also account for pitch momentum
+interval_motifs = {
+    3: [[-3 +7]]
+}
+
+pitch_momentum = integer indicating recent motion of pitch
+
+rhythmic_intensity = some measurement of the recent

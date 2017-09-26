@@ -1,0 +1,1 @@
+from jazzbot import main

@@ -1,0 +1,7 @@
+def improvise(state):
+    chord = state.chords[position]
+    scale = chord.determine_scale(state)
+    print(scale.notes())
+
+
+def generate_idea(state):
